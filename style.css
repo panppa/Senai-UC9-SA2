@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .header{
     background-color: black;
     height: 88px;
@@ -20,8 +21,16 @@
     background: #0d0e0c;
     border-radius: 2px;
     font-size: 16;
+    cursor: pointer;
     color: white;
+
+
 }
+.headerButton:hover{
+    border: solid 1px;
+    border-color: #232520;
+}
+
 .buttonContainer{
     align-items: center;
     padding: 20px;
@@ -34,4 +43,10 @@
     justify-content: left;
     padding: auto;
     margin-left: 20px;
+}
+#hamburguer{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: noen;
 }
