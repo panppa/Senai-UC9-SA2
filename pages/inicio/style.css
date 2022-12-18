@@ -4,11 +4,11 @@
     
     justify-content: space-between;
 }
-#sonaImg{
-    background-image: url(../../img/sonaLgbt.png);
 /*
+#sonaImg{
+
 #sonaImg::after{
-    /*
+  
     height: 450px;
     opacity: 0.95;
     box-shadow: inset 20px 20px 40px rgba(0, 0, 0, 0.5);
@@ -16,19 +16,33 @@
     
     box-shadow: inset 20px 20px 40px rgba(0, 0, 0, 0.5);
     height: 100%;
-    */
+    
     
 
 }
+*/
 .bannerImg{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #183E32;
-    background-image: url(../../img/sonaLgbt.png);
+    background-image: url(../../img/valorantBanner.png);
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    height: 100%;
+    width: 934px;
+}
+.bannerImgContainner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #183E32;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    height: 100;
     width: 50%;
 }
-
+/*TODO: passar os center par left a partir de um certo tamanho de tela pra ficar bonitin :)*/
 .bannerImg::after{
     display: block;
     position: relative;
@@ -52,10 +66,11 @@
 #inscrevaseeButton{
     width: 290px;
     height: 60px;
-    background: #2B6C58;
-    border: 2px solid #000000;
+    border: none;
+    background: #276452;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    font-size: larger;
     color: white;
 }
 .games{
@@ -64,8 +79,8 @@
     background-color: #000000;
     height: 125px;
     align-items:center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .gameBox{
     display: flex;
