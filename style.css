@@ -11,6 +11,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
+    padding: 10px;
 
 }
 
@@ -18,7 +20,7 @@
     align-items: center;
     width: 141px;
     height: 47px;
-    background: #0d0e0c;
+    background: #262924;
     border-radius: 2px;
     font-size: 16;
     cursor: pointer;
@@ -48,5 +50,24 @@
     width: 30px;
     height: 30px;
     background-color: black;
-    border: noen;
+    border: none;
+}@media screen and (min-width: 1020px){
+    #hamburgueria{
+        display: none;
+        position: absolute;
+    }
+    .buttonContainer{
+        position: relative;
+    
+      
+    }
+}
+@media screen and (max-width: 1020px){
+    #hamburguer{
+        display: inline-block;
+    }
+     .buttonContainer{
+        display: none;
+      
+    }
 }
