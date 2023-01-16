@@ -7,7 +7,6 @@
     <title>e-players</title>
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="style.css">
-    <script src="../script.js"></script> 
 </head>
 <body>
     <header class="header" >
@@ -35,11 +34,9 @@
             <img id="hamburguer" src="../../img/bars.svg" alt="Menu hamburguer">
         </a>
     </header>
-
-
     <div class="banner">
         <container class="bannerImgContainner">
-            <container class="bannerImg">
+            <container id="bannerImg" class="bannerImg">
                  
             </container>
 
@@ -52,20 +49,20 @@
             <br>
             <br>
             <br>
-            <button id="inscrevaseeButton">INSCREVA-SE</button>
+            <button id="inscrevaseButton">INSCREVA-SE</button>
         </container>
-        <div class="bannerNav">
-            <div class="bannerNavArrow">
-                a
+        <div  class="bannerNav">
+            <div id="bannerLeftArrow" class="bannerNavArrow">
+                <img src="../../img/chevron-left.svg" alt="">
             </div>
             <div class="bannerNavOption">
-                <a href="#">a</a>
-                <a href="#">b</a>
-                <a href="#">c</a>
-                <a href="#">d</a>
+                <input type="radio" id="radioBanner0" name="banner0" value="valorant"  ></form>
+                <input type="radio" id="radioBanner1" name="banner1" value="cs"  ></form>
+                <input type="radio" id="radioBanner2" name="banner2" value="lol" ></form>
+                <!--TODO: trocar por imagens... um dia-->
             </div>
-            <div class="bannerNavArrow">
-                a
+            <div id="bannerRightArrow" class="bannerNavArrow">
+                <img src="../../img/chevron-right.svg" alt="">
             </div>
         </div>
     </div>   
@@ -81,5 +78,12 @@
     <div class ="loja">
             
     </div>
+    <footer>
+        <a target="_blank" href="https://icons8.com/icon/84842/back">Back</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
+
+
+    <script src="../../js/jquery-3.6.1.js"></script>
+    <script src="../../js/script.js"></script>
 </body>
 </html>
