@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("#radioBanner2").prop('checked', true);
     let slideAtual = 1
     let listaSlides = ["url(../../img/valorantBanner.png)", "url(../../img/csBanner.png)", "url(../../img/sonaBanner.png)"]
 

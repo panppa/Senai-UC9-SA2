@@ -181,6 +181,18 @@
     transition: 0ms;
     height: 300px;
 }
+.bannerImgContainner{
+    justify-content: center;
+    align-items: center;
+}
+.bannerImg::after{
+    justify-content: center;
+    align-items: center;
+}
+.bannerImgContainner::after{
+    justify-content: center;
+    align-items: center;
+}
 
 .bannerImg{
     justify-content: center;

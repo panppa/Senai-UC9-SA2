@@ -29,8 +29,9 @@
 
 }
 .headerButton:hover{
+    background: #363835;
     border: solid 1px;
-    border-color: #232520;
+    border-color: #343631;
 }
 
 .buttonContainer{
